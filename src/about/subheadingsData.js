@@ -1,5 +1,7 @@
 import avatarImage8 from "../assets/avatar-image8.png";
 import avatarImage from "../assets/avatar-image.png";
+import { Imgs } from "../avatar/Avatar.js";
+
 const subheadingsData = {
   1: [
     {
@@ -34,20 +36,7 @@ const subheadingsData = {
       title: "2021 Bachelors Degree - Software Enginnering",
       content: (
         <>
-          <div className="headerMarq">
-            <marquee direction="left" loop="2">
-              {" "}
-              Developed by
-              <a href="https://www.linkedin.com/in/rehamAbass/" target="_blank">
-                {" "}
-                Dev. Reham Abass{" "}
-              </a>
-              <div display="flex" flex-direction="row">
-                <img src={avatarImage} alt="avatar" height="180px" />
-                <img src={avatarImage8} alt="avatar" height="180px" />
-              </div>
-            </marquee>
-          </div>
+          <Imgs pref={"m"}></Imgs>
         </>
       ),
     },
@@ -72,6 +61,7 @@ const subheadingsData = {
             clients are using the app & web with the features that I have
             developed with my team.{" "}
           </h3>{" "}
+          <Imgs pref={"w"}></Imgs>
         </>
       ),
     },

@@ -5,8 +5,7 @@
 }
 
 .avatar.about {
-  height: 72vh;
-  /* height: 52vh; */
+  height: 100vh;
   opacity: 0.8;
   bottom: 50px;
   left: 20%;
