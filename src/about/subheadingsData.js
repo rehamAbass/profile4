@@ -1,3 +1,5 @@
+import avatarImage8 from "../assets/avatar-image8.png";
+import avatarImage from "../assets/avatar-image.png";
 const subheadingsData = {
   1: [
     {
@@ -32,8 +34,8 @@ const subheadingsData = {
       title: "2021 Bachelors Degree - Software Enginnering",
       content: (
         <>
-          <img src="../assets/avatar-image.png" alt="av" />
-          <img src="../assets/avatar-image8.png" alt="av2" />
+          <img src={avatarImage} alt="avatar" />
+          <img src={avatarImage8} alt="avatar" />
         </>
       ),
     },

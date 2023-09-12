@@ -34,7 +34,8 @@
   right: 4vw;
   cursor: pointer;
   /* background-color: rgba(0, 0, 0, .7) !important; */
-  text-shadow: 1px 1px 1px black, 0 0 0.8em black, 0 0 0.2em black !important;
+  text-shadow: 1px 1px 1px rgb(52, 42, 80), 0 0 0.8em rgb(157, 151, 151),
+    0 0 0.2em rgba(21, 59, 88, 0.794) !important;
   box-shadow: 1px 1px 1px rgb(129, 113, 129);
 }
 
