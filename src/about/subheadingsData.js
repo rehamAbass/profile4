@@ -34,8 +34,20 @@ const subheadingsData = {
       title: "2021 Bachelors Degree - Software Enginnering",
       content: (
         <>
-          <img src={avatarImage} alt="avatar" />
-          <img src={avatarImage8} alt="avatar" />
+          <div className="headerMarq">
+            <marquee direction="left" loop="2">
+              {" "}
+              Developed by
+              <a href="https://www.linkedin.com/in/rehamAbass/" target="_blank">
+                {" "}
+                Dev. Reham Abass{" "}
+              </a>
+              <div display="flex" flex-direction="row">
+                <img src={avatarImage} alt="avatar" height="180px" />
+                <img src={avatarImage8} alt="avatar" height="180px" />
+              </div>
+            </marquee>
+          </div>
         </>
       ),
     },

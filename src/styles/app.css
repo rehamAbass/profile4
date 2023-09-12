@@ -39,3 +39,36 @@ button:hover,
 .sub-container-3:not(.active-subheading):hover {
   background-image: linear-gradient(25deg, #0e2c2948, #646363 50%, #24122219);
 }
+
+/* ------------------------------------------------------------------------- */
+
+marquee {
+  display: block !important;
+  width: -webkit-fill-available;
+  justify-content: center !important;
+  align-items: center;
+  justify-items: center;
+  align-self: center !important;
+  white-space: wrap !important;
+  text-align: center !important;
+}
+
+.headerMarq {
+  background-color: rgba(255, 255, 250, 0.7);
+  text-align: center !important;
+  margin-top: 10px;
+  padding: 3px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.7);
+  display: block !important;
+  justify-content: center !important;
+  align-items: center;
+  justify-items: center;
+  align-self: center !important;
+  white-space: wrap !important;
+}
+@media screen and (max-width: 500px) {
+  .headerMarq {
+    float: none;
+  }
+}

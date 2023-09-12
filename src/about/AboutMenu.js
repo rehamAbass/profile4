@@ -29,12 +29,6 @@ export default class AboutMenu extends Component {
     const { activeMenuItem, activeSubheading } = this.state;
     const menuItems = ["PERSONAL", "EDUCATION", "CAREER"];
     const activeMenuTitle = menuItems[activeMenuItem - 1];
-    // const activeMenuIcon =
-    //   activeMenuTitle === "PERSONAL"
-    //     ? personalIcon
-    //     : activeMenuTitle === "EDUCATION"
-    //     ? educationIcon
-    //     : careerIcon;
 
     const subheadings = subheadingsData[activeMenuItem];
 
@@ -52,7 +46,6 @@ export default class AboutMenu extends Component {
         </div>
         <div className="sub-container">
           <div className="icon-title-container">
-            {/* <img src={activeMenuIcon} alt={activeMenuTitle} className="icon" /> */}
             <h3>{activeMenuTitle}</h3>
           </div>
           {subheadings.map((subheading, index) => (
