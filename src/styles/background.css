@@ -1,25 +1,72 @@
 #bg {
-    object-fit: cover;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -5;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
 }
 
 .shadow-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -4;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -4;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 @media (max-width: 700px) {
-    .shadow-overlay {
-        background-color: rgba(0, 0, 0, 0.7);
-    }
+  .shadow-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+#audio1 {
+  margin-left: 80px;
+  margin-top: 150px;
+  & button {
+    padding: 0;
+    border: 0;
+    /* background: inherit; */
+    cursor: pointer;
+    outline: none;
+    width: 30px;
+    height: 30px;
+  }
+  & #audio-player-container {
+    position: relative;
+    margin: 90px 5% auto 5%;
+    width: 90%;
+    max-width: 200px;
+    height: 40px;
+    background: #e3d9d9;
+  }
+  & #audio-player-container::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(to left, #00ffd0, #ffbb00);
+    z-index: -1;
+  }
+  & p {
+    position: absolute;
+    top: -18px;
+    right: 5%;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 10px;
+    background: #fd0e0ebb;
+  }
+  & #play-icon {
+    margin: 5px 1.5% 5px 1.5%;
+  }
+  & path {
+    stroke: #d1ff5e;
+  }
 }
