@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+body {
+  font-family: cursive !important;
+  color: rgb(240, 240, 240);
+  text-shadow: 1px 1px 1px black !important;
+  font-size: medium !important;
+  font-weight: 100 !important;
+  -webkit-tap-highlight-color: transparent;
+  text-shadow: 1px 1px 1px black, 0 0 0.8em black, 0 0 0.2em black !important;
+}
+
+h3 {
+  font-weight: 100 !important;
+}
+
+:root {
+  --blue: rgb(130, 180, 190);
+  --pink: rgb(155, 155, 155);
+  --green: rgb(130, 190, 180);
+  --lightBlue: rgb(150, 230, 230);
+  --yellow: rgb(215, 220, 40);
+  /* --blue: rgb(155, 197, 206);
+    --pink:rgb(194, 155, 161);
+    --green:rgb(126, 146, 176);
+    --lightBlue :rgb(96, 172, 172);
+     */
+  /* rgba(194, 255, 215, 0.7); */
+  --transparent: #000000db;
+  --radius-left: 2px 8px 6px 2px;
+  --radius-right: 2px 6px 8px 2px;
+}
+
+button:hover,
+.class-sub-container a:hover,
+.project-item:hover,
+.skill-item:hover,
+.item:not(.active):hover,
+.sub-container-2:not(.active-subheading):hover,
+.sub-container-3:not(.active-subheading):hover {
+  background-image: linear-gradient(25deg, #0e2c2948, #646363 50%, #24122219);
+}

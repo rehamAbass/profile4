@@ -1,0 +1,128 @@
+.project-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 17%;
+  left: 44%;
+  transform: translateX(-50%);
+  width: 800px;
+  margin-bottom: 1rem;
+}
+
+.project-items-container {
+  flex-direction: row;
+  display: flex;
+  position: relative;
+  height: max-content;
+
+  margin-top: 1rem;
+}
+
+.project-item {
+  height: 30px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  padding-left: 13px;
+  color: var(--lightBlue);
+  border: 0.01pc solid var(--pink);
+  border-radius: var(--radius-right);
+}
+
+.project-item.activeProject .title {
+  font-size: 1rem;
+}
+
+.activeProject {
+  background-image: linear-gradient(20deg, #4b575697, #d0dbe2db 50%, #5f5a5f9e);
+  border-radius: var(--radius-right);
+  cursor: default;
+}
+
+.project-sub-container {
+  width: 90%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.project-sub-container h3 {
+  position: relative;
+  margin: 0;
+}
+
+.project-sub-container img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+  opacity: 0.9;
+}
+
+.project-sub-container p {
+  font-size: 0.875rem;
+}
+
+.link-container a {
+  color: var(--lightBlue);
+  text-decoration: none;
+  margin-top: 1rem;
+  width: 50%;
+  height: 2.75rem;
+  text-align: center;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1100px) {
+  .project-menu {
+    width: 28rem;
+    top: 20%;
+    transform: translateX(-50%);
+  }
+  /* .project-item {
+    height: 2rem;
+    width: 100%;
+  }
+  .project-item.activeProject .title {
+    font-size: 1rem;
+  } */
+  .title {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .project-menu {
+    top: 33%;
+    left: 33%;
+    width: 28rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-menu p {
+    font-size: 0.7rem;
+  }
+  .project-sub-container {
+    margin-top: 0;
+    width: 50%;
+    margin-left: 19% !important;
+  }
+
+  .link-container a {
+    margin-top: 0.5rem;
+    width: 50%;
+    height: 2rem;
+  }
+
+  .project-items-container {
+    margin-top: -23% !important;
+    margin-left: 30% !important;
+    width: 97%;
+    transform: scale(0.89);
+    margin-bottom: 50px;
+  }
+}
