@@ -21,9 +21,9 @@ input,
   width: 100%;
   background-color: #00000082;
   border-radius: 0.3rem;
-  border: 0.07rem solid gold;
+  border: 0.07rem solid rgba(149, 133, 44, 0.644);
   outline: none;
-  color: gold;
+  color: rgb(255, 217, 0);
   padding: 0.5rem;
   font-family: cursive;
 }
@@ -33,7 +33,7 @@ input {
 }
 
 ::placeholder {
-  color: gold;
+  color: rgb(176, 154, 28);
   font-weight: 400;
 }
 
@@ -43,9 +43,9 @@ input {
 }
 
 button {
-  color: gold;
+  color: white;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   padding: 0.5rem 0;
   background-color: transparent;
@@ -63,7 +63,7 @@ button {
   width: 100%;
   height: 12.5rem;
   border-radius: 0.3rem;
-  border: 0.07rem solid gold;
+  border: 0.07rem solid rgba(145, 125, 13, 0.694);
   /* //rgba(255, 255, 255, 0.7); */
 }
 

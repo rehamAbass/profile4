@@ -7,8 +7,7 @@ body {
   font-weight: 100 !important;
   -webkit-tap-highlight-color: transparent;
   text-shadow: 1px 1px 1px black, 0 0 0.8em black, 0 0 0.2em black !important;
-  /* overflow: scroll;
-  overflow-y: scroll; */
+  /* background-color: rgba(72, 72, 72, 0.474); */
 }
 
 h3 {
@@ -18,14 +17,6 @@ h3 {
 :root {
   overflow: scroll;
   overflow-y: scroll;
-
-  /* 
-  --blue: rgb(150, 181, 187);
-  --pink: rgb(177, 139, 86);
-  --green: rgb(104, 132, 64);
-  --lightBlue: rgb(150, 230, 230);
-  --yellow: gold; */
-
   --blue: rgb(209, 179, 120);
   --pink: rgb(200, 200, 200);
   --green: rgb(166, 201, 115);
