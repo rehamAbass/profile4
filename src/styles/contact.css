@@ -1,105 +1,106 @@
 .contact-menu {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 18.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 18.5rem;
 }
 
 .form-group {
-    width: 100%;
+  width: 100%;
 }
 
 input,
 #message {
-    width: 100%;
-    background-color: #00000082;
-    border-radius: 0.3rem;
-    border: 0.07rem solid rgba(200, 255, 255, 0.4); 
-    outline: none;
-    color: rgba(255, 255, 255, 0.909);
-    padding: 0.5rem;
-    font-family: cursive;
+  width: 100%;
+  background-color: #00000082;
+  border-radius: 0.3rem;
+  border: 0.07rem solid gold;
+  outline: none;
+  color: gold;
+  padding: 0.5rem;
+  font-family: cursive;
 }
 
 input {
-    height: 1.9rem;
+  height: 1.9rem;
 }
 
 ::placeholder {
-    color: white;
-    font-weight: 400;
+  color: gold;
+  font-weight: 400;
 }
 
 #message {
-    height: 6.2rem;
-    resize: none;
+  height: 6.2rem;
+  resize: none;
 }
 
 button {
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    width: 100%;
-    padding: 0.5rem 0;
-    background-color: transparent;
-    border: none;
-    font-family: cursive;
-    cursor: pointer;
+  color: gold;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: transparent;
+  border: none;
+  font-family: cursive;
+  cursor: pointer;
 }
 
 .success-message {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #00000030;
-    width: 100%;
-    height: 12.5rem;
-    border-radius: 0.3rem;
-    border: 0.07rem solid rgba(255, 255, 255, 0.7);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000030;
+  width: 100%;
+  height: 12.5rem;
+  border-radius: 0.3rem;
+  border: 0.07rem solid gold;
+  /* //rgba(255, 255, 255, 0.7); */
 }
 
 .success-message p {
-    margin: 0.5rem;
-    padding: 0 3.7rem;
+  margin: 0.5rem;
+  padding: 0 3.7rem;
 }
 
 .error-message {
-    padding: 0.3rem;
-    color: white;
-    background-color: rgb(255, 59, 59);
-    border-radius: 0.2rem;
+  padding: 0.3rem;
+  color: white;
+  background-color: rgb(255, 88, 141);
+  border-radius: 0.2rem;
 }
 
 label {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 1100px) {
-    .contact-menu {
-        top: 50%;
-    }
+  .contact-menu {
+    top: 50%;
+  }
 }
 
 @media (max-width: 700px) {
-    .contact-menu {
-        width: 70%;
-    }
-    form {
-        width: 100%;
-    }
-    input,
-    #message {
-        width: 92%;
-    }
-    .success-message p {
-        padding: 0 0.5rem;
-    }
+  .contact-menu {
+    width: 70%;
+  }
+  form {
+    width: 100%;
+  }
+  input,
+  #message {
+    width: 92%;
+  }
+  .success-message p {
+    padding: 0 0.5rem;
+  }
 }

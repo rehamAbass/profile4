@@ -5,6 +5,7 @@
   top: 3rem;
   gap: 1.5625rem;
   left: 50%;
+  color: gold;
 }
 
 .nav-about {
@@ -27,11 +28,13 @@ a {
   justify-content: center;
   align-items: center;
   gap: 0.625rem;
+  color: gold;
 }
 
 .page-title {
   font-size: 0.875rem;
-  color: rgb(0, 255, 221);
+  color: gold;
+  /* rgb(0, 255, 221); */
   cursor: default;
 }
 
@@ -45,9 +48,8 @@ a {
 
 .nav-link.current {
   opacity: 1;
-  color: rgb(0, 255, 247);
+  color: gold;
 }
-
 @media (max-width: 1100px) {
   .nav-about,
   .nav-skills,

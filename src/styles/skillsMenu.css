@@ -6,6 +6,7 @@
   top: 20%;
   right: 10vw;
   align-items: flex-end;
+  box-shadow: 1px 1px 1px gold;
 }
 
 .skill-item {
@@ -32,11 +33,13 @@
 }
 
 .skill-item.activeSkill:nth-child(1) {
-  background: linear-gradient(45deg, #000000e1, var(--blue) 90%, #000000e1);
+  background-image: linear-gradient(20deg, #4b575697, gold 50%, #5f5a5f9e);
+  /* background: linear-gradient(45deg, #000000e1, var(--blue) 90%, #000000e1); */
 }
 
 .skill-item.activeSkill:nth-child(2) {
-  background: linear-gradient(45deg, #000000e1, var(--green) 90%, #000000e1);
+  background-image: linear-gradient(20deg, #4b575697, gold 50%, #5f5a5f9e);
+  /* background: linear-gradient(45deg, #000000e1, var(--green) 90%, #000000e1); */
 }
 
 .skill-icon {
@@ -50,7 +53,7 @@
 }
 
 .menu {
-  color: goldenrod;
+  color: gold;
   width: 19rem;
   position: fixed;
   display: flex;

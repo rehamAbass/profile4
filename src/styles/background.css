@@ -44,16 +44,7 @@
     height: 38px;
     /* background: #e3d9d9; */
   }
-  & #audio-player-container::before {
-    position: absolute;
-    content: "";
-    width: calc(100% + 2px);
-    height: calc(100% + 2px);
-    left: 0px;
-    top: 0px;
-    background: linear-gradient(to left, #33ffb1de, yellow, #fe92e1e5);
-    z-index: -1;
-  }
+
   & #play-icon {
     /* margin: 2px; */
   }
