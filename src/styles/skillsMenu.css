@@ -50,6 +50,7 @@
 }
 
 .menu {
+  color: goldenrod;
   width: 19rem;
   position: fixed;
   display: flex;
@@ -115,6 +116,7 @@
     transform: translateX(-50%);
     align-items: center;
     top: 30%;
+    color: gold;
   }
   .skill-item {
     height: 2rem;
