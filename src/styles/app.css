@@ -19,11 +19,18 @@ h3 {
   overflow: scroll;
   overflow-y: scroll;
 
-  --blue: rgb(130, 180, 190);
-  --pink: rgb(200, 200, 200);
-  --green: rgb(130, 190, 180);
+  /* 
+  --blue: rgb(150, 181, 187);
+  --pink: rgb(177, 139, 86);
+  --green: rgb(104, 132, 64);
   --lightBlue: rgb(150, 230, 230);
-  --yellow: rgb(215, 220, 40);
+  --yellow: gold; */
+
+  --blue: rgb(209, 179, 120);
+  --pink: rgb(200, 200, 200);
+  --green: rgb(166, 201, 115);
+  --lightBlue: rgb(150, 230, 230);
+  --yellow: rgb(170, 140, 80);
   /* --blue: rgb(155, 197, 206);
     --pink:rgb(194, 155, 161);
     --green:rgb(126, 146, 176);
