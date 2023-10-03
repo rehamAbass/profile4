@@ -24,11 +24,11 @@ const Background = () => {
         <source src={video} type="video/mp4" />
       </video>
 
-      <div id="audio1">
+      {/* <div id="audio1">
         <audio controls playsInline autoPlay loop preload="auto" hidden>
           <source src={alof} type="audio/mp3"></source>
         </audio>
-      </div>
+      </div> */}
     </>
   );
 };
