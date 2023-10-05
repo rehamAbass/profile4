@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/background.css";
-import video from "../assets/bg-universe.mp4";
+// import video from "../assets/bg-universe.mp4";
+import video from "../assets/back1.mp4";
 import fallbackImage from "../assets/fallback-image.png";
 import alof from "../assets/music/alof.mp3";
 import lottieWeb from "https://cdn.skypack.dev/lottie-web";
@@ -11,7 +12,7 @@ const Background = () => {
   return (
     <>
       <div className="shadow-overlay"></div>
-      <img z-index="-1000" src={fallbackImage} id="bg" alt="re"></img>
+      {/* <img z-index="-1000" src={fallbackImage} id="bg" alt="re"></img> */}
       <video
         playsInline
         autoPlay
